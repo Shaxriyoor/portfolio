@@ -9,9 +9,7 @@ function Header() {
                 <div className="container">
                     <div className="header-row">
                         <div className="header-logo">
-                            <Link to={'/'}>
-                            <img src="/images/logo.svg" alt="site logo" />
-                            </Link>
+                           <img src="\images\logoFinder.jpg" alt="" />
                         </div>
 
                         <form className="header-search">
