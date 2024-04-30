@@ -3,7 +3,6 @@ import { useDispatch } from 'react-redux'
 import { removeOrder } from '../../../store/slices/orders'
 
 function OrdersProduct({ product }) {
-  // const { id, title, mainImage, model, price } = product
   const dispatch = useDispatch()
 console.log(product);
   const handleRemove = () => {
@@ -25,7 +24,7 @@ console.log(product);
           <p className='ordres-product__subtitle'>{product.model}</p>
         </div>
         <div className="ordres-product__row">
-          <button className="ordres-product__button" onClick={handleRemove}>Remove</button>
+          <button className="ordres-product__button" onClick={handleRemove}>убрать</button>
         </div>
       </div>
     </div>

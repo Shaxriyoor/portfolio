@@ -26,10 +26,10 @@ function CartList() {
         <Link to='/category'>
           <button className='cart-bottom__back'>
             <BackIcon />
-            <span>Back to shop</span>
+            <span>вернутся на главную</span>
           </button>
         </Link>
-        <button className='cart-bottom__remove' onClick={handleReamoveAll}>Remove all</button>
+        <button className='cart-bottom__remove' onClick={handleReamoveAll}>убрать всё</button>
       </div>
     </div>
   )

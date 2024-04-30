@@ -66,13 +66,13 @@ function CategoryList() {
                 <span className="category-list__row__icon">
                   <BasketIcon />
                 </span>
-                <span className="category-list__row__text">{item.sold} sold</span>
+                <span className="category-list__row__text">{item.sold}продано</span>
               </div>
 
             </div>
             <p className="category-list__subtitle">{item.desc.split(' ').slice(0, 18).join(' ')}...</p>
             <Link to={`/product/${item.slug}`} >
-              <button className='category-list__button'>Veiw detalis</button>
+              <button className='category-list__button'>Посмотреть детали</button>
             </Link>
           </div>
 

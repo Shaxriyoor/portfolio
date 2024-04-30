@@ -34,27 +34,27 @@ function OffersContent() {
     return String(a).padStart('2', '0')
   }
 
-  setInterval(() => generateTime('04/04/2024'), 1000)
+  setInterval(() => generateTime('05/23/2024'), 1000)
   return (
     <div className="offers-content">
-      <h4 className="offers-title">Deals and offers</h4>
-      <p className="offers-subtitle">Hygiene equipments</p>
+      <h4 className="offers-title">Акции и предложения</h4>
+      <p className="offers-subtitle">поторопитесь!</p>
       <div className="offers-time">
         <div className="offers-time__block">
           <span className='offers-time__number'>{padString(time.day)}</span>
-          <span className='offers-time__text'>Days</span>
+          <span className='offers-time__text'>день</span>
         </div>
         <div className="offers-time__block">
           <span className='offers-time__number'>{padString(time.hour)}</span>
-          <span className='offers-time__text'>Hour</span>
+          <span className='offers-time__text'>час</span>
         </div>
         <div className="offers-time__block">
           <span className='offers-time__number'>{padString(time.min)}</span>
-          <span className='offers-time__text'>Min</span>
+          <span className='offers-time__text'>минут</span>
         </div>
         <div className="offers-time__block">
           <span className='offers-time__number'>{padString(time.sec)}</span>
-          <span className='offers-time__text'>Sec</span>
+          <span className='offers-time__text'>секунд</span>
         </div>
       </div>
     </div>

@@ -1,4 +1,5 @@
-import { CartPage, CategoriesPage, HomePage, NotFoundPage, OrdersPage, ProductPage } from "../pages";
+import { CartPage, CategoriesPage, HomePage, NotFoundPage, OrdersPage, ProductPage} from "../pages";
+
 
 export const routes = [
   {
@@ -31,5 +32,10 @@ export const routes = [
     component: <OrdersPage />,
     path: '/orders'
   },
+  // {
+  //   id: 7,
+  //   component: < CheckoutPage />,
+  //   path: '/checkout'
+  // },
 
 ]

@@ -1,4 +1,4 @@
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import { MessageSmallIcon, BasketIcon, StarIcon } from '../../../assets/icons'
 import { useDispatch } from 'react-redux'
 import { addCart } from '../../../store/slices/cart'
@@ -19,6 +19,9 @@ function ProductHeader({ product }) {
     const handleImage = (image) => {
         setActiveImage(image)
     }
+    useEffect(() => {
+        setActiveImage(product.image)
+    }, [product])
     
     return (
         <div className='product-header'>
@@ -107,10 +110,10 @@ function ProductHeader({ product }) {
 
                         <div className="content-buttons">
                             <button className="content-button content-button__primary" onClick={handleAddCart}>
-                                Add cart
+                                добавить в корзину
                             </button>
                             <button className="content-button content-button__secondary" onClick={handleAddOrder}>
-                                Add favourite
+                                добавить в отложенные
                             </button>
                         </div>
                     </div>

@@ -16,7 +16,8 @@ function ProductRelated() {
         <div className="recommended-wrapper">
           <div className="recommended-title">
             <h1 className="recommended-title__title">
-              Related products
+            Сопутствующие товары
+
             </h1>
           </div>
           <div className="recommended-products">

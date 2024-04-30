@@ -12,7 +12,7 @@ function CategoryFilter() {
     <div className="category-filter">
       <div className="category-sections">
         <div className="category-section">
-          <h1 className='category-section__title'>Category</h1>
+          <h1 className='category-section__title'>Категория</h1>
         </div>
         {
           categories.list.map(item => (

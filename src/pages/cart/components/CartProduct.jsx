@@ -2,6 +2,7 @@ import React from 'react'
 import { useDispatch } from 'react-redux'
 import { decrement, increment, removeCart } from '../../../store/slices/cart'
 import { Counter } from '../../../components'
+import { Link } from 'react-router-dom'
 
 function CartProduct({ product }) {
   const { id, title, image, model, price, qty } = product
@@ -36,7 +37,8 @@ function CartProduct({ product }) {
           <Counter onIncrement={handleIncrement} onDecrement={handleDecrement} count={qty} />
         </div>
         <div className="cart-product__row">
-          <button className="cart-product__button" onClick={handleRemove}>Remove</button>
+          
+          <button className="cart-product__button" onClick={handleRemove}>убрать</button>
         </div>
       </div>
     </div>

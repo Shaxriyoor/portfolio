@@ -3,6 +3,7 @@ import HomePage from "./home";
 import NotFoundPage from "./notFound";
 import CartPage from "./cart";
 import ProductPage from "./product";
-import OrdersPage from './orders'
+import OrdersPage from './orders';
+// import  CheckoutPage from './checkout';
 
-export { HomePage, CategoriesPage, NotFoundPage, ProductPage, CartPage, OrdersPage}
+export { HomePage, CategoriesPage, NotFoundPage, ProductPage, CartPage, OrdersPage, }

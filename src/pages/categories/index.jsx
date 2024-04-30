@@ -50,14 +50,14 @@ function CategoriesPage() {
           <div className="category-content">
             <div className="category-head">
               <p className='category-head__title'>
-                {products.list.length} items in
+                {products.list.length} 
                 <span className='category-head__title__name'> {categories.list.find(item => item.id === categoryId)?.title}</span>
               </p>
               <div className='category-head__row'>
                 <select name='category' className='category-head__select' id="categories" onChange={handleAasc}>
                   <option value="none">--None--</option>
-                  <option value="asc">arzon</option>
-                  <option value="desc">Qimmat</option>
+                  <option value="asc">бюджетный</option>
+                  <option value="desc">дорого</option>
                   
                 </select>
                 <div className='category-head__buttons'>

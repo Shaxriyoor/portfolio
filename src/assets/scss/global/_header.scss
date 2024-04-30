@@ -7,6 +7,7 @@
     @include flex(center, space-between);
   }
 
+
   &-search {
     border: 2px solid red;
     border-radius: 6px;
@@ -73,11 +74,11 @@
     @include hover() {
       &:hover {
         span {
-          color: $primary;
+          color: red;
         }
 
         path {
-          fill: $primary;
+          fill: red;
         }
       }
 

@@ -9,12 +9,14 @@ function Header() {
                 <div className="container">
                     <div className="header-row">
                         <div className="header-logo">
-                           <img src="\images\logoFinder.jpg" alt="" />
+                            <Link to={'/'}>
+                                <img src="\public\images\logo-shop.png" alt=""  width={100}/>
+                            </Link>
                         </div>
 
                         <form className="header-search">
-                            <input type="text" placeholder='Search...' className='header-search__input' />
-                            <button className="header-search__button">Search</button>
+                            <input type="text" placeholder='поиск...' className='header-search__input' />
+                            <button className="header-search__button">поиск</button>
                         </form>
 
                         <div className="header-buttons">
@@ -22,14 +24,14 @@ function Header() {
                                 <span className='header-button__icon'>
                                     <ProfileIcon />
                                 </span>
-                                <span className="header-button__text">Profile</span>
+                                <span className="header-button__text">профиль</span>
                             </button>
                             <Link to='/orders'>
                                 <button className="header-button">
                                     <span className='header-button__icon'>
                                         <HeartIcon />
                                     </span>
-                                    <span className="header-button__text">Orders</span>
+                                    <span className="header-button__text">отложенные</span>
                                 </button>
                             </Link>
                             <Link to='/cart'>
@@ -37,7 +39,7 @@ function Header() {
                                     <span className="header-button__icon">
                                         <CartIcon />
                                     </span>
-                                    <span className="header-button__text">My cart</span>
+                                    <span className="header-button__text">корзина</span>
                                 </button>
                             </Link>
                         </div>

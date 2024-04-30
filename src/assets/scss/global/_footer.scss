@@ -28,7 +28,7 @@
 
     @include hover(){
       &:hover{
-        color: $primary;
+        color: red;
         text-decoration: underline;
       }
     }
@@ -58,7 +58,7 @@
         @include hover(){
           & svg:hover path{
             cursor: pointer;
-            fill: $primary;
+            fill: red;
           }
         }
       }

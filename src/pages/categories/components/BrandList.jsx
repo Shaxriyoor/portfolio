@@ -35,7 +35,7 @@ function BrandList() {
   return (
     <div className="category-sections">
       <div className="category-section">
-        <h1 className='category-section__title'>Brands</h1>
+        <h1 className='category-section__title'>Бренды</h1>
       </div>
       <List
         list={isLong ? brands.list.slice(0, 6) : brands.list}

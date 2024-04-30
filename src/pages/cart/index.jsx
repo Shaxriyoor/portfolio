@@ -16,15 +16,15 @@ function CartPage() {
         {
           items.length <= 0 ?
             <div className='cart-empty'>
-              <img className='cart-empty__image' src="/images/cart-empty.png" alt="" />
+              <img className='cart-empty__image' src="https://cdni.iconscout.com/illustration/premium/thumb/empty-cart-7359557-6024626.png"  />
               <div className="cart-empty__content">
-                <h2 className='cart-empty__title'>Your cart is empty</h2>
-                <button className='cart-empty__button' onClick={handlBack}>Back to home</button>
+                <h2 className='cart-empty__title'>Ваша корзина пуста</h2>
+                <button className='cart-empty__button' onClick={handlBack}>вернутся на главную</button>
               </div>
             </div>
             :
             <div>
-              <h1 className="cart-page__title">My cart ({items.length})</h1>
+              <h1 className="cart-page__title">мои заказы ({items.length})</h1>
               <div className="cart-page__row">
                 <CartList />
                 <CartInfo />

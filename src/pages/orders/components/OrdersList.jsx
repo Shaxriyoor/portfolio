@@ -18,6 +18,7 @@ function OrdersList() {
     dispatch(removeAllOrders())
   } 
 
+ 
   return (
     <div className='order-list' >
       {
@@ -26,14 +27,15 @@ function OrdersList() {
         ))
       }
 
+
       <div className="order-bottom">
-        <Link to='/category'>
+        <Link to='/'>
           <button className='order-bottom__back'>
             <BackIcon />
-            <span>Back to shop</span>
+            <span>вернутся на главную</span>
           </button>
         </Link>
-        <button className='order-bottom__remove' onClick={handleRemoveAll}>Remove all</button>
+        <button className='order-bottom__remove' onClick={handleRemoveAll}>убрать всё</button>
       </div>
 
     </div>

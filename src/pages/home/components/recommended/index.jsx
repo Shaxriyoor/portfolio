@@ -11,7 +11,7 @@ function RecommendedList() {
       <div className="container">
         <div className="recommended-wrapper">
           <div className="recommended-title">
-            <h1 className='recommended-title__title'>Recommended items</h1>
+            <h1 className='recommended-title__title'>Рекомендуемые товары</h1>
           </div>
           <div className="recommended-products">
             {

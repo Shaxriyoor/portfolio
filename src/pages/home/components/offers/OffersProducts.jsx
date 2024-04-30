@@ -10,6 +10,7 @@ function OffersProducts() {
     <div className="offers-products">
       {
         productsOffers.list.map(item => (
+         
           <div className="offers-product" key={item.id}>
             <div className="offers-product__image">
               <img src={item.image} alt={item.title} />
@@ -19,6 +20,7 @@ function OffersProducts() {
               <p className="offers-product__percent">-{item.discount}%</p>
             </div>
           </div>
+         
         ))
       }
     </div>

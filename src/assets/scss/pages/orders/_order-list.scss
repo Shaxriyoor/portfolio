@@ -15,26 +15,26 @@
 
         &__back{
             color: $white;
-            border: 1px solid $primary;
+            border: 1px solid red;
             border-radius: 6px;
             padding: 10px 12px;
-            background-color: $primary;
+            background-color:red;
             @include center();
             column-gap: 6px;
             @include trn();
 
             @include hover(){
                 &:hover, path{
-                    fill: $primary;
-                    color: $primary;
+                    fill: red;
+                    color:red;
                     background-color: transparent;
                 }
             }
         }
 
         &__remove{
-            color: $primary;
-            border: 1px solid $primary;
+            color:red;
+            border: 1px solid red;
             border-radius: 6px;
             padding: 10px 12px;
             background-color: $white;
@@ -45,7 +45,7 @@
             @include hover(){
                 &:hover, path{
                     color: $white;
-                    background-color: $primary  ;
+                    background-color: red ;
                 }
             }
         }

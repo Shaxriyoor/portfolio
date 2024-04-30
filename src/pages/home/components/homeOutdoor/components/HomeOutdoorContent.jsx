@@ -12,7 +12,7 @@ function HomeOutdoorContent({ category }) {
       </div>
       <h4 className='homeOutdoor-content__title'>{category.title}</h4>
       <Link to={`/category/${category.slug}-${category.id}`}>
-        <button className='homeOutdoor-content__button'>Source now</button>
+        <button className='homeOutdoor-content__button'>Источник сейчас</button>
       </Link>
 
     </div>

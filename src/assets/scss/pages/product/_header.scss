@@ -50,7 +50,7 @@
                 padding: 4px;
 
                 &.active{
-                    border-color: $primary;
+                    border-color: red;
                 }
 
                 img {
@@ -185,7 +185,7 @@
             border-radius: 6px;
             padding: 0px 16px;
             width: 248px;
-            height: 40px;
+            height: 60px;
             padding: 10px;
 
             font-weight: 500;
@@ -193,22 +193,23 @@
             text-align: center;
 
             &__primary {
-                background: linear-gradient(180deg, #127fff 0%, #0067ff 100%);
+                background:red;
                 color: $white;
 
                 &:hover {
                     border: 1px solid $gray-300;
-                    color: $primary;
+                    color: red;
                     background: transparent;
+                    
                 }
             }
 
             &__secondary {
                 border: 1px solid $gray-300;
-                color: $primary;
+                color: red;
 
                 &:hover {
-                    background: linear-gradient(180deg, #127fff 0%, #0067ff 100%);
+                    background:red;
                     color: $white;
                 }
             }
